@@ -1,0 +1,56 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+#game{
+    margin: 50px auto;
+    width: 240px;
+    height: 240px;
+    background-color: rgb(250, 171, 171);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.block{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.winner{
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.winner__title, .winner-info,
+.player-turn{
+    color: blueviolet;
+    font-size: 25px;
+    line-height: 25px;
+}
+.winner-info{
+  font-weight: 700;
+    
+}
+#start{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: 1px solid limegreen;
+    background-color: #128555;
+}
+.block{
+    position: relative;
+}
+.cross{
+       color: blue;
+
+}
